@@ -1,10 +1,10 @@
 import json
 
 
-raw_data = {"name": "adam", "age": 33, "grades": "1,2,3"}
+student = {"name": "adam", "age": 33, "grades": "1,2,3"}
 
 with open("student.json", "w") as f:
-    json.dump(raw_data, f)
+    json.dump(student, f)
 
 
 with open("student.json", "r") as f:
